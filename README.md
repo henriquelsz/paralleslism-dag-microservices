@@ -28,25 +28,37 @@ Repository with practical Go examples from the article
  
 ## How to Run
  
-` + "```" + `bash
-# Clone the repository
+### Clone the repository
+```bash
 git clone https://github.com/seu-usuario/paralleslism-dag-microservices.git
 cd paralleslism-dag-microservices
+```
  
-# Sequential Fibonacci
+### Sequential Fibonacci
+```bash
 go run 01-fibonacci/sequential/main.go
+```
  
-# Parallel Fibonacci
+### Parallel Fibonacci
+```bash
 go run 01-fibonacci/parallel/main.go
- 
-# Cutoff benchmark (find the optimal value)
+ ```
+### Cutoff benchmark (find the optimal value)
+```bash
 go run 01-fibonacci/benchmark/main.go
+```
  
-# Sequential checkout (microservices chain)
+### Sequential checkout (microservices chain)
+```bash
 go run 02-microservices-checkout/sequential/main.go
+```
  
-# Parallel checkout (optimized DAG)
+### Parallel checkout (optimized DAG)
+```bash
 go run 02-microservices-checkout/parallel/main.go
+```
  
-# DAG analyzer (calculates T₁, T∞, Parallelism, Critical Path)
+### DAG analyzer (calculates T₁, T∞, Parallelism, Critical Path)
+```bash
 go run 03-dag-analyzer/main.go
+```
