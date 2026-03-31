@@ -11,12 +11,12 @@ Repository with practical Go examples from the article
  
 | Example | Leiserson Concept | What It Demonstrates |
 |---------|------------------|----------------------|
-| ` + "`01-fibonacci/sequential`" + ` | T₁ (Work) | Sequential baseline — all work on 1 CPU |
-| ` + "`01-fibonacci/parallel`" + ` | Spawn/Sync, Cutoff | Parallelism with goroutines, analogous to ` + "`cilk_spawn`" + ` |
-| ` + "`01-fibonacci/benchmark`" + ` | Overhead vs. Useful Work | How to find the optimal cutoff empirically |
-| ` + "`02-microservices-checkout/sequential`" + ` | T₁ = T∞ (Maximum Span) | Synchronous chain — parallelism = 1.0 |
-| ` + "`02-microservices-checkout/parallel`" + ` | Span Reduction | Optimized DAG — independent calls in parallel |
-| ` + "`03-dag-analyzer`" + ` | Tp = T₁/P + T∞ | Tool that calculates Work, Span, Parallelism, and Critical Path |
+| "`01-fibonacci/sequential`" | T₁ (Work) | Sequential baseline — all work on 1 CPU |
+| "`01-fibonacci/parallel`" | Spawn/Sync, Cutoff | Parallelism with goroutines, analogous to `cilk_spawn`"|
+| "`01-fibonacci/benchmark`" | Overhead vs. Useful Work | How to find the optimal cutoff empirically |
+| "`02-microservices-checkout/sequential`" | T₁ = T∞ (Maximum Span) | Synchronous chain — parallelism = 1.0 |
+| "`02-microservices-checkout/parallel`" | Span Reduction | Optimized DAG — independent calls in parallel |
+| "`03-dag-analyzer`"  | Tp = T₁/P + T∞ | Tool that calculates Work, Span, Parallelism, and Critical Path |
  
 ---
  
